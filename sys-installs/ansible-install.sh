@@ -30,7 +30,7 @@ if command -v ansible &> /dev/null; then
   exit 0
 fi
 
-#Add Ansible. Instructions from https://spacelift.io/blog/how-to-install-ansible
+#Add Ansible. Instructions from https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-20-04#step-1-installing-ansible
 sudo apt update
 sudo apt install ansible -y
 
