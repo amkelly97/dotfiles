@@ -9,7 +9,7 @@ fi
 
 #Check if the manager is apt or not.
 #Found command -v syntax from https://unix.stackexchange.com/questions/46081/identifying-the-system-package-manager
-if !command -v apt &> /dev/null; then
+if ! command -v apt &> /dev/null; then
   echo "This programs requires apt."
   exit 1
 fi
